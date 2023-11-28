@@ -10,7 +10,7 @@ import Foundation
 public struct Validator {
     
     public static func isValidEmailAddr(strToValidate: String) -> Bool {
-      let emailValidationRegex = "^[\\p{L}0-9!#$%&'*+\\/=?^_`{|}~-][\\p{L}0-9.!#$%&'*+\\/=?^_`{|}~-]{0,63}@[\\p{L}0-9-]+(?:\\.[\\p{L}0-9-]{2,7})*$"
+      let emailValidationRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
 
       let emailValidationPredicate = NSPredicate(format: "SELF MATCHES %@", emailValidationRegex)
 

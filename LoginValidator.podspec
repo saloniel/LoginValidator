@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |spec|
   spec.name             = "LoginValidator"
-  spec.version          = "1.0.1"
+  spec.version          = "1.0.2"
   spec.summary          = "By far the most fantastic validator you can find"
  
   spec.description      = <<-DESC
 Try for once and you will not regret
-Pod updated
+Pod updated for email
                        DESC
  
   spec.homepage         = "https://appcoda.com"
