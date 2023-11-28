@@ -22,4 +22,7 @@ public struct Validator {
         return passwordTest.evaluate(with: password)
     }
     
+    public static func printMsg(msg: String) {
+        print("============> ", msg)
+    }
 }
